@@ -9,4 +9,10 @@ fast tap event for jquery
 ####parameter
 
     onTapListener : function
-      e : touchEndEvent object
+          e : touchEndEvent object
+      
+####Example
+
+    $(window).tap(function(e) {
+        //some code using tap event
+    });
